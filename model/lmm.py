@@ -14,6 +14,7 @@ from transformers.models.qwen2_vl.modeling_qwen2_vl import (
     LayerNorm,
     VisionMlp,
     PatchMerger,
+    QWEN2_VL_VISION_ATTENTION_CLASSES,
 )
 from transformers.models.qwen2_vl.configuration_qwen2_vl import Qwen2VLVisionConfig
 
