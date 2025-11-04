@@ -5,7 +5,7 @@ import torch.utils.checkpoint
 from typing import Any, List, Dict, Optional, Tuple, Union
 
 from transformers.utils import ModelOutput
-from transformers.models.qwen2_vl.modeling_qwen2_vl import Qwen2VLPreTrainedModel, Qwen2VLCausalLMOutputWithPast, PatchEmbed, VisionRotaryEmbedding
+from transformers.models.qwen2_vl.modeling_qwen2_vl import Qwen2VLPreTrainedModel, Qwen2VLCausalLMOutputWithPast, PatchEmbed, VisionRotaryEmbedding, LayerNorm
 from transformers.models.qwen2_vl.configuration_qwen2_vl import Qwen2VLVisionConfig
 
 
