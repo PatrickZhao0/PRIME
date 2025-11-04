@@ -4,7 +4,9 @@ from torch import nn
 import torch.utils.checkpoint
 from typing import List, Dict, Optional, Tuple, Union
 
-from transformers.models.qwen2_vl.modeling_qwen2_vl import *
+from transformers.utils import ModelOutput
+from transformers.models.qwen2_vl.modeling_qwen2_vl import Qwen2VLPreTrainedModel, Qwen2VLCausalLMOutputWithPast
+from transformers.models.qwen2_vl.configuration_qwen2_vl import Qwen2VLVisionConfig
 
 
 class Qwen2VLVisionBlock(nn.Module):
