@@ -3,7 +3,7 @@ import torch
 from torch import nn
 import torch.utils.checkpoint
 from typing import Any, List, Dict, Optional, Tuple, Union
-
+import torch.nn.functional as F
 from transformers.utils import ModelOutput
 from transformers.models.qwen2_vl.modeling_qwen2_vl import (
     Qwen2VLPreTrainedModel,
